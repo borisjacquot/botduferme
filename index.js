@@ -19,7 +19,7 @@ let date_ob = new Date(),
     year = date_ob.getFullYear();
 
 
-let j = schedule.scheduleJob('00 17 * * *', function(){
+let j = schedule.scheduleJob('15 15 * * *', function(){
     T.get('statuses/user_timeline', { user_id: 'prisduferme', count: 1 }, function ( err, data, response ){
         let words = data[0].text.split(" ");
         let sam = words[3] - 1,
