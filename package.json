@@ -1,0 +1,25 @@
+{
+  "name": "botduferme",
+  "version": "1.0.0",
+  "description": "Useless Twitter bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borisjacquot/botduferme.git"
+  },
+  "author": "Boris Jacquot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borisjacquot/botduferme/issues"
+  },
+  "homepage": "https://github.com/borisjacquot/botduferme#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "latest-tweets": "^1.0.4",
+    "node-schedule": "^1.3.2",
+    "twit": "^2.2.11"
+  }
+}
